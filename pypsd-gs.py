@@ -29,7 +29,7 @@ except:
 
 Ignore_datastore=False
 
-REQUEST_THREADS=36 #No. of threads from which to send server requests (More Threads are faster but performance saturates at some point and drops beyond it)
+REQUEST_THREADS=10 #No. of threads from which to send server requests (More Threads are faster but performance saturates at some point and drops beyond it)
 RETRY_COUNT=5
 studentid=0
 
